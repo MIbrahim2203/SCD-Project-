@@ -5,8 +5,6 @@ using namespace std;
 double add(double a, double b) {
     return a + b;
 }
-// Function to subtract two numbers
-
 
 
 int main() {
