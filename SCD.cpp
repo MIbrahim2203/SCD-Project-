@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// Function to add two numbers
+double add(double a, double b) {
+    return a + b;
+}
 
 
 int main() {
