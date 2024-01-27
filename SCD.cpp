@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+// Function to subtract two numbers
+double subtract(double a, double b) {
+	return a - b;
+}
+
+
 // Function to add two numbers
 double add(double a, double b) {
     return a + b;
