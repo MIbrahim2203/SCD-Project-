@@ -20,7 +20,7 @@ double divide(double a, double b) {
         return 0; // Return 0 in case of division by zero
     }
 
-    return a / b;
+    return a * b;
 }
 double multiply(double a, double b) {
     // Check for division by zero
