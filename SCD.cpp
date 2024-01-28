@@ -22,7 +22,15 @@ double divide(double a, double b) {
 
     return a / b;
 }
+double multiply(double a, double b) {
+    // Check for division by zero
+    if (b == 0) {
+        std::cerr << "Error: Division by zero is not allowed." << std::endl;
+        return 0; // Return 0 in case of division by zero
+    }
 
+    return a / b;
+}
 
 int main() {
     double num1, num2;
